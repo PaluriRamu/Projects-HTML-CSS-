@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,800;1,900&display=swap");
+
+body {
+  background-color: white;
+  height: 100%;
+  width: auto;
+}
+
+.container {
+  margin-left: 50px;
+}
+
+.logo {
+  height: 40px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.list {
+  margin-left: 300px;
+  display: flex;
+  margin-top: -35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.list-item {
+  margin-left: 60px;
+  display: flex;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  color: green;
+}
+
+.search-icon {
+  margin-left: 1020px;
+  margin-top: -30px;
+  cursor: pointer;
+}
+
+.nav-button {
+  margin-left: 1060px;
+  height: 30px;
+  width: 100px;
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 3px solid black;
+}
+
+.nav-button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.square {
+  margin-left: 130px;
+  display: flex;
+  margin-top: 190px;
+}
+
+.images {
+  margin-left: -680px;
+  margin-top: 95px;
+  height: 400px;
+  display: flex;
+}
+
+.hero-container {
+  display: flex;
+}
+
+.globe {
+  margin-left: -400px;
+  margin-top: 70px;
+}
+
+.star {
+  margin-left: 600px;
+  margin-top: 90px;
+}
+
+.hero-heading {
+  margin-left: -200px;
+  margin-top: 150px;
+  font-size: 55px;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-description {
+  margin-left: -130px;
+  width: 520px;
+  font-family: "Poppins", sans-serif;
+  margin-top: -30px;
+}
+
+.button-email {
+  margin-left: -90px;
+  margin-top: 20px;
+  height: 40px;
+  width: 140px;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button-join {
+  margin-left: 20px;
+  height: 35px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+}
+
+.contact-heading {
+  margin-top: 45px;
+  margin-left: 30px;
+}
+
+.icons {
+  margin-left: 5px;
+  cursor: pointer;
+}

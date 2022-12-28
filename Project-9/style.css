@@ -1,0 +1,282 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  height: 500px;
+  background-color: blue;
+}
+
+nav {
+  float: right;
+  margin-right: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.nav-item {
+  margin-right: 15px;
+  color: white;
+}
+
+.nav-item-active {
+  background-color: white;
+  padding: 4px;
+  border-radius: 8px;
+  color: blue;
+  margin-right: 15px;
+  font-weight: 400;
+}
+
+.logo {
+  margin: 20px;
+}
+
+.header-text {
+  color: white;
+  margin-left: 60px;
+  margin-top: 60px;
+  float: left;
+}
+
+.header-image {
+  float: right;
+}
+
+.companies {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.company-items {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin-left: 25px;
+}
+
+.api-heading {
+  margin-left: 65px;
+  margin-top: 90px;
+  font-weight: 100px;
+}
+
+.cards {
+  margin-left: 65px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  width: 20%;
+  height: 250px;
+  background-color: lightgrey;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+.card-active {
+  width: 20%;
+  height: 250px;
+  background-color: lightgrey;
+  margin-right: 30px;
+  box-shadow: 10px 5px 15px pink;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card-logo {
+  margin-left: 18px;
+  margin-top: 40px;
+}
+
+.card-head {
+  margin-left: 18px;
+  font-size: 20px;
+  color: black;
+}
+
+.card-head-active {
+  margin-left: 18px;
+}
+
+.card-body {
+  margin-left: 18px;
+  width: 190px;
+  font-size: small;
+}
+
+.blog-heading {
+  margin-left: 65px;
+}
+
+.blog-cards {
+  margin-left: 65px;
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-card {
+  height: 300px;
+  width: 70%;
+}
+
+.blog-content {
+  margin-left: 240px;
+  margin-top: -295px;
+  background-color: rgb(236, 236, 236);
+  padding: 40px;
+  height: 210px;
+  width: 220px;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.active {
+  color: blue;
+}
+
+.blog-bottom {
+  margin-left: 290px;
+  margin-top: -37px;
+}
+
+.blog-author {
+  margin-left: 175px;
+  margin-top: -60px;
+}
+
+.faq-section {
+  display: flex;
+  margin-top: 60px;
+  background-color: rgb(166, 169, 192);
+  height: 250px;
+}
+
+.faq-content {
+  margin-left: 65px;
+  color: black;
+  font-size: 14px;
+  width: 500px;
+}
+
+.object {
+  margin-top: -10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.faq-image {
+  margin-left: 265px;
+}
+
+.download-section {
+  margin-left: 65px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.download-content {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.remove {
+  margin-left: 10px;
+  font-weight: 1;
+}
+
+.download-email {
+  margin-left: 350px;
+  margin-top: 50px;
+  background-color: rgb(166, 169, 192);
+  padding: 15px;
+  height: 15px;
+  width: 475px;
+  border-radius: 25px;
+  border: none;
+}
+
+.moment {
+  border: none;
+  background-color: rgb(166, 169, 192);
+  color: blue;
+}
+
+.selection {
+  float: right;
+  background-color: blue;
+  width: 110px;
+  height: 45px;
+  border: none;
+  border-radius: 25px;
+  margin-top: -15px;
+  cursor: pointer;
+  color: white;
+}
+
+.footer-section {
+  background-color: blue;
+  height: 250px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-left {
+  margin-left: 65px;
+}
+
+.footer-logo {
+  margin-top: 70px;
+  margin-left: 55px;
+}
+
+.list {
+  display: flex;
+  margin-left: -30px;
+  margin-top: 20px;
+}
+
+.list-items {
+  margin-left: 28px;
+  display: flex;
+  color: white;
+  cursor: pointer;
+}
+
+.list-items:hover {
+  color: red;
+}
+
+.footer-right {
+  margin-top: 45px;
+  margin-left: 250px;
+}
+
+.footer-logos {
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.logos-list {
+  margin-left: 200px;
+  display: flex;
+  cursor: pointer;
+}
+
+.logos-list:hover {
+  color: red;
+}
